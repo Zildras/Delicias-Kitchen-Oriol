@@ -1,0 +1,156 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+nav{
+    border-style: groove none groove none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.desplegable-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.desplegable-horizontal > li > a{
+    display: block;
+    padding: 0px 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.desplegable-horizontal > li > a:hover {color:#7ABA96;}
+.desplegable-vertical > li > a:hover {color:#7ABA96;}
+
+.desplegable-vertical{
+    border-style: groove none none none;
+    border-color: #7ABA96;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 152px;
+    background-color: white;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.desplegable-horizontal li:hover .desplegable-vertical{
+    display: block;
+}
+
+
+.desplegable-vertical li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+main{
+    border: 2px solid  white;
+    margin: 20px;
+    width: 98%;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.footer2{
+    border: 2px solid white;
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    align-self: flex-end
+}
+.footer2 h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+section{
+    border: 2px solid  white;
+    margin: 10px;
+    margin: 4%;
+    margin-top: 0%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: #7ABA96;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+article{
+    border: 2px solid  white;
+    margin: 10px;
+    width: 40%;
+}
+
+article p{
+    text-align: justify;
+    margin: 20px;
+}
+
+section img{
+    width: 40%;
+    justify-content: center;
+}
+
+

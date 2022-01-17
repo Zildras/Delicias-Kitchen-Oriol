@@ -1,0 +1,222 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+nav{
+    border-style: groove none groove none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.desplegable-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.desplegable-horizontal > li > a{
+    display: block;
+    padding: 0px 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.desplegable-horizontal > li > a:hover {color:#7ABA96;}
+.desplegable-vertical > li > a:hover {color:#7ABA96;}
+
+.desplegable-vertical{
+    border-style: groove none none none;
+    border-color: #7ABA96;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 152px;
+    background-color: white;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.desplegable-horizontal li:hover .desplegable-vertical{
+    display: block;
+}
+
+
+.desplegable-vertical li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+main{
+    border: 2px solid  white;
+    margin: 20px;
+    width: 98%;
+    display: inline-flex;
+    justify-content: center;
+
+    margin-top: 0%;
+}
+
+.section1{
+    border: 2px solid white;
+    margin: 0%;
+    margin-right: 10px;
+    padding: 1px;
+    padding-right: 0px;
+    width: 18%;
+    
+    display: inline-block;
+    justify-content: center;
+}
+.section2{
+    border: 2px solid white;
+    margin: 0%;
+    padding: 5px;
+    width: 52%;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    padding-top: 20px;
+}
+
+.section2 article{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 1px;
+    width: 44%;
+     
+
+    align-content: flex-start;
+    text-align: center;
+}
+
+.section2 article img{
+    width: 100%;
+}
+
+.section1 article{
+    border: 2px solid white;
+    margin: 0px;
+    padding: 0px;
+    width: 97%;
+    
+
+    align-content: flex-start;
+    text-align: center;
+}
+
+.section1 .article1 img{
+    width: 48%;
+}
+.section1 .article2 img{
+    width: 66%;
+}
+
+.section1 .article1 p{
+    padding-bottom: 10px;
+}
+.section1 .article2{
+    margin-top: 0px;
+    background-color: lightgray;
+}
+
+h5{
+    border-style: groove none groove none;
+    border-color: #7ABA96;
+}
+.section1 p{
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 0%;
+    color: gray;
+}
+
+.section1 .article2 p{
+    padding-top: 15px;
+}
+
+.section1 .article1 h2{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-bottom: 0%;
+}
+
+.section1 .article2 .footer1{
+    background-color: #7ABA96;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.section2 article p{
+    text-align: justify;
+}
+
+a {color: black; 
+    text-decoration: none;
+}
+a:hover {color: black; 
+    text-decoration: none;
+}
+a:visited {color: black;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 19px;
+    text-align: center;
+}
+
+.footer2{
+    border: 2px solid white;
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    align-self: flex-end
+}
+.footer2 h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
+
+
